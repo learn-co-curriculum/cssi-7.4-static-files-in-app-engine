@@ -1,6 +1,6 @@
 #Serving Static Files
 
-####Challenge - Add styling to your HelloWorld App
+##Challenge - Add Styling to your HelloWorld App
 
 * Create a new file called style.css.
 * Add some simple styling in the style.css file (font color, an image border, background color) 
@@ -13,10 +13,12 @@
 ![gif of a cheating runner](http://media.giphy.com/media/BUOlQ1H5RCR1K/giphy.gif)
 
 #### Lesson Notes
-Unlike other environments, merely linking the css file by using `<link rel="stylesheet" type="text/css" href="style.css">` doesn't quite work.
+Unlike other environments, merely linking the CSS file by using `<link rel="stylesheet" type="text/css" href="style.css">` doesn't quite work.
 
 GAE doesn't know where to look for our style.css file unless we configure it in the app.yaml file. Our stylesheet is an example of a static file. 
 Images, JavaScript code, video, and Flash animations are also examples of static files that we need to tell AppEngine how to access.  
+
+### Configuring app.yaml for Static Files
 * Static files need to be kept in their own directory.
 * In app.yaml, add a handler that routes to that directory and declare that directory as static using static_dir
 
@@ -28,11 +30,11 @@ handlers:
 - url: /.*
   script: main.app
 ```
-In this example, a directory name "img" contains all of our locally stored image files
+In this example, a directory name "img" contains all of our locally stored image files.
 
 ##STUDENT PROJECT: UPLOADING PROFILE PAGE TO GAE
 
-Move your profile page html and css files into the webapp2 framework. Doing this will allow you to add some additional features (like custom user messages, blog posts and comments) to your already awesome profile page!
+Move your profile page HTML and CSS files into the webapp2 framework. Doing this will allow you to add some additional features (like custom user messages, blog posts and comments) to your already awesome profile page.
 
 You will need to remember
 * The webapp2 framework
