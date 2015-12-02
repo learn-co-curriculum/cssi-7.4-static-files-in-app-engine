@@ -42,3 +42,5 @@ You will need to remember
 * static_dir
 * Optionally use self.request.get() to pass in a template variable and have your page respond.
 
+
+<a href='https://learn.co/lessons/cssi-7.4-static-files-in-app-engine' data-visibility='hidden'>View this lesson on Learn.co</a>
