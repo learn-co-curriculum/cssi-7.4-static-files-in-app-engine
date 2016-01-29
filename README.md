@@ -43,4 +43,4 @@ You will need to remember
 * Optionally use self.request.get() to pass in a template variable and have your page respond.
 
 
-<a href='https://learn.co/lessons/cssi-7.4-static-files-in-app-engine' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/cssi-7.4-static-files-in-app-engine' title='Serving Static Files'>Serving Static Files</a> on Learn.co and start learning to code for free.</p>
